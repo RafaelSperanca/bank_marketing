@@ -1,8 +1,8 @@
-**📊 Análise de Dados Bancários - Marketing Direto**
+# 📊 Análise de Dados Bancários - Marketing Direto
 
 Este projeto realiza uma análise exploratória completa de dados bancários relacionados a campanhas de marketing direto. O objetivo é identificar padrões, correlações e fatores que influenciam na aquisição de produtos bancários pelos clientes.
 
-**🎯 Objetivos**
+# 🎯 Objetivos
 
 - Analisar o perfil demográfico dos clientes (idade, profissão, estado civil)
 - Investigar a relação entre variáveis financeiras (saldo bancário, empréstimos, inadimplência)
@@ -10,7 +10,11 @@ Este projeto realiza uma análise exploratória completa de dados bancários rel
 - Calcular taxas de conversão por diferentes segmentos
 - Aplicar conceitos de probabilidade condicional
 
-**🔍 Principais Análises Realizadas**
+# Fonte dos Dados
+
+Dataset original: https://archive.ics.uci.edu/dataset/222/bank+marketing
+
+# 🔍 Principais Análises Realizadas
 
 **1. Análise Descritiva**
 

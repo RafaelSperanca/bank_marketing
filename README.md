@@ -36,7 +36,7 @@ Dataset original: https://archive.ics.uci.edu/dataset/222/bank+marketing
 **1. Análise Descritiva**
 
 - **Distribuição de idade:** Nota-se a maior concentração de clientes está na faixa etária entre 30 e 40 anos.
-- 
+  
 <img width="1000" height="600" alt="Image" src="https://github.com/user-attachments/assets/39dcb23f-515d-4da5-99da-54066dc7a15d" />
   
 - **Profissões mais comuns:** Management (21%), Blue-collar (21%), Technician (17%).
@@ -59,6 +59,30 @@ Dataset original: https://archive.ics.uci.edu/dataset/222/bank+marketing
 
 <img width="1800" height="600" alt="Image" src="https://github.com/user-attachments/assets/2c0f80fd-b8c0-4494-85e6-63e99e6c81aa" />
 
-
-
+- Análise de aquisição do produto por clientes que tenham Inadimplência, Habitação e Empréstimos:
+  - **Inadimplência:** Clientes inadimplentes têm uma taxa de aquisição de **12,2%**, 1 p.p. maior do que os que não são.
+  - **Habitação:** Clientes sem empréstimo habitacional tem uma taxa de aquisição de **14,9%**. Tal informação sugere que clientes sem o comprometimento habitacional são mais propensos a adquirir o produto.
+  - **Empréstimos:** Clientes sem empréstimos tem uma taxa de aquisição de **12,1%**, quase o dobro dos que possuem empréstimos. Isso demonstra que os clientes com sem o comprometimento de renda com empréstimos tem uma capacidade financeira maior.
+ 
+ - **Correlação de Pearson**
+  A correlação de Pearson é uma medida estatística que indica o grau de relaçai linear entre duas variáveis quantitativas. Quanto mais próximo de **1** demonstra que a variáveis tem uma relação positiva forte.
+    - Valores próximos de +1: Correlação positiva forte;
+    - Valores próximos de -1: Correlação negativa forte;
+    - Valores próximos de 0: Correlação fraca ou inexistente.
   
+  O mapa de calor mostra que idade e saldo têm uma correlação positiva muito fraca (r = 0.066). Embora estatisticamente significativa, essa relação indica que a idade tem influência mínima no saldo. Outros fatores provavelmente são muito mais determinantes para o saldo dos clientes.
+
+<img width="800" height="600" alt="Image" src="https://github.com/user-attachments/assets/6ab66ee1-d3b6-43b2-934c-30399fb3cfdf" />
+
+O heatmap abaixo demonstra que educação superior (tertiary) consistentemente produz as maiores taxas de conversão em ambos os grupos. Enquanto o cliente tem empréstimos reduz a capacidade de conversão do produto oferecido.
+
+<img width="1200" height="800" alt="Image" src="https://github.com/user-attachments/assets/f9e08249-57e7-4023-a0cf-3748f302bb19" />
+
+**Probabilidade Condicional:** A probabilidade condicional é a probabilidade de um evento ocorrer dado que outro evento já ocorreu. É escrita como P(A|B) e lida como "probabilidade de A dado B".
+
+A análise da probabilidade condicional P(Conversão|Contato Anterior) revelou que **22%** dos clientes com pelo menos um contato prévio converteram no produto atual. Este resultado indica que contatos anteriores têm impacto positivo na conversão.
+
+---
+**Autor:** Rafael Sperança
+
+**Ano:** 2025
